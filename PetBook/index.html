@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetBook</title>
+</head>
+<body>
+    <h1>PetBook</h1>
+    <p>Red social para todo tipo de mascotas</p>
+    
+    <form action="https://formspree.io/profesionalnicolasdiaz@gmail.com" method="POST">
+
+        <div><label>Nombre de tu mascota <input type="text" name="nombre de mascota" required placeholder="Nombre de su mascota"> </label></div>
+        <div><label>Edad <input type="number" name="edad" placeholder="Edad en años" required> </label></div>
+        
+        <div><label for="Contraseña"> Contraseña </label> <input type="password" id="Contraseña" name="Contraseña" required placeholder="Ingrese aqui su contraseña">    </div>
+        <div><label for="Color"> Color </label> <input type="color" id="Color" name="Color" placeholder="El color de su mascota" required></div>
+        <div><label for="Sexo"> Macho </label> <input type="radio" id="Sexo" name="Genero" ></div>
+        <div><label for="Sexo"> Hembra </label> <input type="radio" id="Sexo" name="Genero" ></div>
+        
+        <label>Tipo de mascota<select name="tipo_de_mascota" > 
+            <option value="Gato">Gato</option>
+            <option value="Perro">Perro</option>
+            <option value="Cobayo">Cobayo</option>
+        </select> </label> <br>
+
+        <label>Contanos cómo es tu mascota <textarea name="info" id="info" cols="40" rows="10"></textarea> </label> <br>
+        <br>
+        <label>Acepto bases y condiciones <input type="checkbox" name="bases_y_condiciones" id="bases" value="Acepta">  </label> <br>
+
+        <div><label for="Enviar">Enviar </label> <input type="submit" value="submit"></div> 
+
+    </form>
+
+</body>
+</html>
