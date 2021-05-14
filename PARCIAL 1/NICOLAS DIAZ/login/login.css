@@ -1,0 +1,21 @@
+.logo{
+    width: 230px; 
+    height: 160px;
+
+
+  }
+
+.acceder{
+    position: absolute;
+    background:00FFFF ;
+    width: 350px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+
+}
+
+.formulario{
+    align-self: center;
+    align-content: center;
+}
