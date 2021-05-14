@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    
+</head>
+
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Etevos.png" alt="logo" class="logo">
+    
+    <form name="myForm" class= "formulario" action="https://formspree.io/profesionalnicolasdiaz@gmail.com" method="POST" onsubmit="return validarUsuario()">
+    
+        <h2>Numero de usuario</h2>
+        <label> <input type="text" name="usuario" id="usuario" required placeholder="Ingresa tu numero de usuario"> </label>
+    
+        <h2>Contraseña</h2>
+        <label for="password"> </label> <input type="password" id="password" name="password" required placeholder="Ingresa tu contraseña">    
+      
+        <label for="Acceder"> </label> <button type="button" id="acceder" class="acceder" onclick="validaciones()" > Acceder </button>
+    </form>
+
+
+</body>
+</html>
